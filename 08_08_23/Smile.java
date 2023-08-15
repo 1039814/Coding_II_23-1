@@ -1,13 +1,13 @@
-class smile{
+class Smile{
     public static void main(String[] args) {
         
-        System.out.println("  oooo  ");
-        System.out.println(" o    o ");
-        System.out.println("o o  o o");
-        System.out.println("o      o");
-        System.out.println("o o  o o");
-        System.out.println("o  oo  o");
-        System.out.println(" o    o ");
-        System.out.println("  oooo  ");
+        System.out.println("    0000   ");
+        System.out.println(" 00      00");
+        System.out.println("0  0    0  0");
+        System.out.println("0          0");
+        System.out.println("0  0    0  0");
+        System.out.println("0    00    0");
+        System.out.println(" 00      00 ");
+        System.out.println("    0000    ");
     }
 }
