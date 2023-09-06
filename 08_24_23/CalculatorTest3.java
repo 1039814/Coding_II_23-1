@@ -26,5 +26,6 @@ public class CalculatorTest3 {
        Person 7: $11
        Person 8: $30
        */
+        System.out.println("your total is" + result);
     }    
 }

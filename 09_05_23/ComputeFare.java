@@ -9,7 +9,7 @@ public class ComputeFare {
         if(age <11){
             fare = 3;
         }
-        if(age > 11 && age <65 ){
+        else if(age <65 ){
             fare = 5;
         }
         else{

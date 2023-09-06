@@ -18,6 +18,7 @@ public class TestClass {
         System.out.println("the hypotenuse of leg C = "+ c);
         int sum = CM.roll();
         System.out.println("sum of two dice rolls = " + sum);
+        sc.close();
 
     }
 }

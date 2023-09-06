@@ -1,10 +1,10 @@
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 public class Input01 {
     public static void main(String[] args) {
         //Create a JOptionPane.
         //Store the input as a String and print it.
-        String  InputSVar = JOptionPane.showInputDialog("Type Somethoing");
+        //String  InputSVar = JOptionPane.showInputDialog("Type Somethoing");
 
         
         

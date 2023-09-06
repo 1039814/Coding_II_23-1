@@ -15,5 +15,6 @@ public static void main(String[] args) {
         String firstletter = firstname.substring(0,1);
         String firstletter2 = firstletter.toUpperCase()+".";
         System.out.println("your name is :"+lastname + ", " +firstletter2 );
+        console.close();
     }
 }
