@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 public class Tip01 {
     public static void main(String[] args) {
         //Find everyone's indivudlal total after tax(5%) and tip(15%)
