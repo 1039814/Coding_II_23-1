@@ -7,7 +7,7 @@ public class multipuseof3_5 {
     
         long sum=0L,sum5=0L;
         //int cn3 =3 ,cn5 = 5;
-        final int M =1000;
+        final int M =1001;
         
         for (int iter3=0; iter3<M; iter3+=3) {
             sum+=iter3; 
