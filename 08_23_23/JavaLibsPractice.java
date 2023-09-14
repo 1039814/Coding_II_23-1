@@ -8,7 +8,7 @@ public class JavaLibsPractice {
         System.out.println("whats your name");
         String Name = sc.nextLine();
         System.out.println("Ok " +Name + " who do you want main character to be");
-        String noun1 = sc.nextLine();
+        //String noun1 = sc.nextLine();
         System.out.println("give a time");
         int lenthMins = sc.nextInt();
         double lenthHrs = (lenthMins/60.0);

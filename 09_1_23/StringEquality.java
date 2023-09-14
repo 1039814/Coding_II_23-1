@@ -11,6 +11,7 @@ public class StringEquality {
     else{
     System.out.println("you are not the king of rock and roll");
     }
+    sc.close();
     }
 }
 

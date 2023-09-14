@@ -7,7 +7,8 @@ public class RockPaperScissor {
     Random random = new Random();
     int enemy = (random.nextInt(3));
     System.out.println("what would you like to schoose");
-    int userin = sc.nextInt();
+    //int userin = sc.nextInt();
     System.out.println(" robots number is : "+enemy);
+    sc.close();
     }
 }

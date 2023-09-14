@@ -1,4 +1,4 @@
-import javax.swing.JOptionPane;
+/*import javax.swing.JOptionPane;
 
 public class Input02 {
     public static void main(String[] args) {
@@ -28,4 +28,4 @@ public class Input02 {
                 acceptableValues[1]);
                 
     }
-}
+}*/
