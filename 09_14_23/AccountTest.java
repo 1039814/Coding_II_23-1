@@ -5,6 +5,9 @@ public class AccountTest {
         CheckingAccount account = new CheckingAccount();
         account.balance = 1000;
         account.name = "Mr.G";
-        account.Checkaccount();
+        account.withdraw(10000);
+        SavingsBond bond = new SavingsBond(40,30);
+        System.out.println(bond.displaybond());
+
     }
 }

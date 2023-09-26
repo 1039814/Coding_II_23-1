@@ -14,6 +14,9 @@ public class multipuseof3_5 {
             
         }
         for (int iter5=0; iter5<M; iter5+=5) {
+            if(iter5%3==0){
+                continue;
+            }
             sum5+=iter5; 
         }
         System.out.println(sum +"\n" + sum5);
