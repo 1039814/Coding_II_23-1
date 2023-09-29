@@ -1,7 +1,4 @@
 package Euler;
-
-import javax.sound.midi.Soundbank;
-
 public class specialpythagorgeantriplet {
     public static void main(String[] args) {
        //calulator

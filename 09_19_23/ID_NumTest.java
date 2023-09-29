@@ -5,5 +5,5 @@ public class ID_NumTest {
     ID_Num id4 = id3;
     ID_Num id5 = new ID_Num("98-2230");
     ID_Num id6 = new ID_Num();
-    id6.setID(id5.getID);
+    //id6.setID(id5.getID);
 }
