@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Teams {
-    private static int gamenumbers = 0; 
+    private static int Teams = 0; 
     private String name;
     private int wintotal;
     private int losstotal;
@@ -14,6 +14,7 @@ public class Teams {
         this.tie_total = tie_total;
         this.goalstotal = goalstotal;
         this.goalsallowed = goalsallowed;
+        
     }
     public String getName() {
         return name;
