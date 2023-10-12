@@ -4,23 +4,24 @@ public class LargestProduct{
     public static void main(String[] args) {
         long currentprd =1;
         long currentprd2 =1;
-        String line = "";
+
         String currentline;
         String nexttempline;
-        int i =0;
         Scanner sc = new Scanner(LargestProduct.class.getResourceAsStream("LargestProduct.txt"));
         currentline = sc.next();
-        do{
-            for(int i2 = 1;i2<currentline.length()+12; i2++){
-                currentline = currentline.substring(1)+sc.next();
-                System.out.println(currentline); 
+        
+        for(int i = 13; i<currentline.length();i++){
+            nexttempline = currentline.substring(i-13, i);
+            //System.out.println(nexttempline);
+            for(int i2 =0; i2<nexttempline.length();i2++){
+                currentprd= currentprd*Integer.parseInt(nexttempline.substring(i2, i2+1));
             }
-            if(currentprd2>currentprd){
-                currentprd = currentprd2;
 
+            if(currentprd>currentprd2){
+                currentprd2 = currentprd;
             }
-        i++;
-        }while(i<20);
-    
+            currentprd = 1;
+        }
+        System.out.println(currentprd2);
     }
 }
