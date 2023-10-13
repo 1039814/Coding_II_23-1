@@ -1,12 +1,14 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 public class Teams {
-    private static int Teams = 0; 
+    private static int teams = 0; 
     private String name;
     private int wintotal;
     private int losstotal;
     private int tie_total;
     private int goalstotal;
     private int goalsallowed;
+    ArrayList<Teams> team = new ArrayList<>();
     public Teams(String name, int wintotal, int losstotal, int tie_total, int goalstotal, int goalsallowed) {
         this.name = name;
         this.wintotal = wintotal;
@@ -14,7 +16,8 @@ public class Teams {
         this.tie_total = tie_total;
         this.goalstotal = goalstotal;
         this.goalsallowed = goalsallowed;
-        
+        teams++;
+        team.add(teams, this);
     }
     public String getName() {
         return name;
